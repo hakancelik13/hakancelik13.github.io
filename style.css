@@ -1,0 +1,163 @@
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('images/portfolioImage5.jpg');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+/* display background color black on navbar scroll */
+.navbar  {
+    background-color: black;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
+
+/* spacing on all sections */
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
+
+/* Contact */
+
+input,textarea,p {
+    outline: 0;
+}
+h1 {
+    margin: 0;
+    padding: 20px;
+    font-size: 22px;
+    text-align: center;
+    border-bottom: 1px solid #eceff2;
+    color: #6a737f;
+    font-weight: 600;
+}
+.contact {
+    background-color: #fff;
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,.2);
+}
+.contact .fields {
+    position: relative;
+    padding: 15px;
+}
+.contact input[type="text"], .contact input[type="email"] {
+    display: block;
+    margin-top: 15px;
+    padding: 15px;
+    border: 1px solid #dfe0e0;
+    width: 100%;
+}
+.contact input[type="text"]:focus, .contact input[type="email"]:focus {
+    border: 1px solid #c6c7c7;
+}
+.contact input[type="text"]::placeholder, 
+.contact input[type="email"]::placeholder, 
+.contact textarea::placeholder {
+    color: #858688;
+}
+.contact textarea {
+    resize: none;
+    margin-top: 15px;
+    padding: 15px;
+    border: 1px solid #dfe0e0;
+    width: 221%;
+    height: 150px;
+}
+.contact textarea:focus {
+    border: 1px solid #c6c7c7;
+}
+.contact input[type="submit"] {
+    display: block;
+    margin-top: 15px;
+    padding: 15px;
+    border: 0;
+    background-color: #518acb;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+}
+.contact input[type="submit"]:hover {
+    background-color: #3670b3;
+}
+.contact input[name="email"] {
+    position: relative;
+    display: block;
+}
+.contact label {
+    position: relative;
+
+}
+.contact label i {
+    position: absolute;
+    color: #dfe2e5;
+    top: 31px;
+    left: 15px;
+    z-index: 10;
+}
+.contact label i ~ input {
+    padding-left: 45px !important;
+}
+.contact .responses {
+    padding: 15px;
+    margin: 0;
+}
